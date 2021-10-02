@@ -8,7 +8,8 @@
 > Note: To make it fair for hypercorn, I made a [patch](https://gitlab.com/synodriver/hypercorn/-/tree/nonecorn) to it and now hypercorn can run
 > as gunicorn's worker, since the author of hypercorn seems to have different priorities currently, 
 > Before those pr are merged, you can just
-> ```pip install nonecorn==0.11.2rc5```to test, I fixed some bugs and merged some pr for hypercorn in that fork.
+> ```pip install nonecorn==0.11.2rc5```to test, I fixed some bugs, merged some pr for hypercorn and added some features(like gunicorn worker) 
+> in that fork.
 
 ## Start
 
