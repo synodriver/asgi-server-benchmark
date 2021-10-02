@@ -1,0 +1,16 @@
+{
+  "listeners": {
+    "*:9000": {
+      "pass": "applications/fastapi"
+    }
+  },
+  "applications": {
+    "fastapi": {
+      "type": "python 3.8",
+      "path": "/home/lighthouse/webproject/",
+      "module": "main",
+      "callable": "app",
+        "processes": 2
+    }
+  }
+}
